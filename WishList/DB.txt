@@ -1,0 +1,11 @@
+create database WishList;
+use WishList;
+
+create table register(username varchar(30) primary key,
+password varchar(30),
+contact varchar(12),
+email varchar(30),
+address varchar(40),
+usertype varchar(40));
+
+
